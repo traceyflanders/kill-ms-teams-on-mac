@@ -15,6 +15,7 @@ ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS T
 ```
 _Double click shortcut and it should kill Microsoft Teams_
 
+**
 #### Setup the script as a local command from terminal where the file path to the script is /Users/${USER}/myscripts. Change this.
 ###### Example
 
