@@ -1,6 +1,8 @@
 Kills Microsoft Teams on Mac
 ======
-> "Because it hangs a system reboot or shutdown."
+> "Issue: Microsoft Teams hangs my Mac when I try to reboot or shutdown."
+> Solution: Automate this from the command line and GUI using a desktop shortcut.
+
 ## Installation
 Download the script and save it to a permanent folder of your choice. In this example I use the path ```/Users/bsmith/myscripts``` _Typically I use my Google Drive because its dah cloud._
 1. Delete any old installations ```rm -drf ~/myscripts```
@@ -14,7 +16,6 @@ Download the script and save it to a permanent folder of your choice. In this ex
 #### Create a Desktop Shortcut from the command line
   - Create a symbolic link ```ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"```
   - From your Desktop, double click the new shortcut and it should kill Microsoft Teams
-
 
 ## Quick Installation
 ``` bash
