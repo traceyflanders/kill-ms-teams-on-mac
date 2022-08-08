@@ -7,13 +7,11 @@ Kills Microsoft Teams on Mac
   - Delete any old installations and create a new folder
   - ```rm -drf ~/myscripts```
   - Create a new folder
-  - ```
-mkdir -p ~/myscripts
-cd ~/myscripts
+  - ```mkdir -p ~/myscripts
+  - cd ~/myscripts```
 ```
   - Download the files
-  - ```
-git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git
+  - ```git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git
 cd kill-ms-teams-on-mac
 ```
 
