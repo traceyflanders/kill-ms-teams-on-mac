@@ -2,8 +2,8 @@ Kills Microsoft Teams on Mac
 ======
 > "Because it hangs a system reboot or shutdown."
 ## 1. Installation
-1. Download the script and save it to a permanent folder of your choice. In this example I use the path ```/Users/bsmith/myscripts``` _Typically I use my Google Drive because its dah cloud.)_
-  - Delete any old installations and create a new folder ```rm -drf ~/myscripts```
+1. Download the script and save it to a permanent folder of your choice. In this example I use the path ```/Users/bsmith/myscripts``` _Typically I use my Google Drive because its dah cloud._
+  - Delete any old installations ```rm -drf ~/myscripts```
   - Create a new folder ```mkdir -p ~/myscripts && cd ~/myscripts```
   - Download the files ```git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git && cd kill-ms-teams-on-mac```
 
