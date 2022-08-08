@@ -1,4 +1,4 @@
-### Kills Microsoft Teams on Mac because it hangs a system reboot or shutdown.
+## Kills Microsoft Teams on Mac because it hangs a system reboot or shutdown. ##
 
 # Setup Desktop Shortcut to quick access
 # Example: ln -sf "PATH TO SCRIPT HERE/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
