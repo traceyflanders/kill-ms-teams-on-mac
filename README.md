@@ -1,7 +1,7 @@
 Kills Microsoft Teams on Mac
 ======
 > "Because it hangs a system reboot or shutdown."
-
+## Installation
 1. Download the script and save it to a permanent folder of your choice. In this example we use the path ```/Users/bsmith/myscripts``` (I typically use my Google Drive because its dah cloud.)
 2. Create a quick command from the command line
   - Be sure to make the file ```killTeams.sh``` executable via ```chmod +x /Users/bsmith/myscripts/killTeams.sh```
@@ -11,8 +11,9 @@ Kills Microsoft Teams on Mac
   - Create a symbolic link ```ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"```
   -- From your Desktop, double click the new shortcut and it should kill Microsoft Teams
 
-###### Quick Commands 
+###### Advanced User - Quick Installation 
 ``` bash
+rm -drf ~/myscripts
 mkdir -p ~/myscripts
 cd ~/myscripts
 git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git
