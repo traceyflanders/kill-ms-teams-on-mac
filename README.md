@@ -1,6 +1,7 @@
 Kills Microsoft Teams on Mac
 ======
 > "Issue: Microsoft Teams hangs my Mac when I try to reboot or shutdown."
+
 > Solution: Automate this from the command line and GUI using a desktop shortcut.
 
 ## Installation
