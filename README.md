@@ -1,7 +1,7 @@
 Kills Microsoft Teams on Mac
 ======
 > "Because it hangs a system reboot or shutdown."
-## Basic Installation
+## Installation
 Download the script and save it to a permanent folder of your choice. In this example I use the path ```/Users/bsmith/myscripts``` _Typically I use my Google Drive because its dah cloud._
 1. Delete any old installations ```rm -drf ~/myscripts```
 2. Create a new folder ```mkdir -p ~/myscripts && cd ~/myscripts```
