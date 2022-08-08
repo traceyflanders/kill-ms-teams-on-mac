@@ -32,3 +32,24 @@ ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/Users/${US
 ## Uninstall
 1. Open the commandline and run ```cd ~/ && rm -drf ~/myscripts/kill-ms-teams-on-mac```
 2. Drag the desktop shortcut to the trash
+
+
+## Sample Output during installation and use
+```bash
+tfland@macbookpro % cd ~/ && rm -drf ~/myscripts/kill-ms-teams-on-mac
+tfland@macbookpro ~ % cd ~/ && rm -drf ~/myscripts/kill-ms-teams-on-mac
+tfland@macbookpro ~ % mkdir -p ~/myscripts && cd ~/myscripts
+tfland@macbookpro myscripts % git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git && cd kill-ms-teams-on-mac
+Cloning into 'kill-ms-teams-on-mac'...
+remote: Enumerating objects: 169, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 169 (delta 6), reused 1 (delta 1), pack-reused 151
+Receiving objects: 100% (169/169), 42.89 KiB | 675.00 KiB/s, done.
+Resolving deltas: 100% (51/51), done.
+tfland@macbookpro kill-ms-teams-on-mac % chmod +x killTeams.sh
+tfland@macbookpro kill-ms-teams-on-mac % ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/usr/local/bin/killTeams"
+tfland@macbookpro kill-ms-teams-on-mac % killTeams
+Microsoft Teams running on PID 94010
+tfland@macbookpro kill-ms-teams-on-mac % ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
+```
