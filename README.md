@@ -6,7 +6,7 @@ Kills Microsoft Teams on Mac
 
 ## Installation
 Download the script and save it to a permanent folder of your choice. In this example I use the path ```/Users/bsmith/myscripts``` _Typically I use my Google Drive because its dah cloud._
-1. Delete any old installations ```rm -drf ~/myscripts```
+1. (Optional) Delete any old installations ```rm -drf ~/myscripts```
 2. Create a new folder ```mkdir -p ~/myscripts && cd ~/myscripts```
 3. Download the files ```git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git && cd kill-ms-teams-on-mac```
 
