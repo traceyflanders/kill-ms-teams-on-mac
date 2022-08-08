@@ -1,4 +1,5 @@
-# Kills Microsoft Teams on Mac
+Kills Microsoft Teams on Mac
+======
 _"Because it hangs a system reboot or shutdown."_
 
 
