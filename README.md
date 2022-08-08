@@ -15,8 +15,10 @@ Kills Microsoft Teams on Mac
 ``` bash
 mkdir -p ~/myscripts
 cd ~/myscripts
+git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git
+cd kill-ms-teams-on-mac
 chmod +x killTeams.sh
-ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/usr/local/bin/killTeams"
+ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/usr/local/bin/killTeams"
 killTeams
-ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
+ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
 ```
