@@ -16,7 +16,7 @@ Download the script and save it to a permanent folder of your choice. In this ex
   - From your Desktop, double click the new shortcut and it should kill Microsoft Teams
 
 
-###### Quick Installation
+## Quick Installation
 ``` bash
 rm -drf ~/myscripts
 mkdir -p ~/myscripts
