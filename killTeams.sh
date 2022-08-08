@@ -19,10 +19,3 @@ else
         echo "${APPNAME} running on PID ${APPPID}";
         kill -9 ${APPPID} &>/dev/null
 fi
-
-# Setup script as a local command
-# Example: ln -sf "PATH TO SCRIPT HERE/killTeams.sh" /usr/local/bin/killteams
-
-# Setup Desktop Shortcut to quick access
-# Example: ln -sf "PATH TO SCRIPT HERE/killteams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
-# Example: ln -sf "/Users/${USER}/Google Drive/My Drive/Projects/Software Development/scripts/killteams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
