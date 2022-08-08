@@ -5,10 +5,10 @@ Kills Microsoft Teams on Mac
 1. Download the script and save it to a permanent folder of your choice. In this example we use the path ```/Users/bsmith/myscripts``` 
   - _(I typically use my Google Drive because its dah cloud.)_
   - Delete any old installations and create a new folder
-```
-rm -drf ~/myscripts
   - ```
-- Create a new folder
+rm -drf ~/myscripts
+```
+  - Create a new folder
 ```
 mkdir -p ~/myscripts
 cd ~/myscripts
