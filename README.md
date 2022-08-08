@@ -10,7 +10,7 @@ Download the script and save it to a permanent folder of your choice. In this ex
 2. Download the files ```git clone https://github.com/traceyflanders/kill-ms-teams-on-mac.git && cd kill-ms-teams-on-mac```
 
 #### Create a quick command from the command line
-3. Be sure to make the file executable ```chmod +x /Users/bsmith/myscripts/killTeams.sh```
+3. Be sure to make the file executable ```chmod +x killTeams.sh```
 4. Create a symbolic link for quicker access from the command line ```ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/usr/local/bin/killTeams"```
 5. Ensure teams is open and running then execute ```killTeams```
 #### Create a Desktop Shortcut from the command line
