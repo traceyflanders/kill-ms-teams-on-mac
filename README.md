@@ -13,11 +13,10 @@ Kills Microsoft Teams on Mac
 
 ###### Quick Commands 
 ``` bash
-cd ~/
-mkdir -p myscripts
+mkdir -p ~/myscripts
 cd ~/myscripts
-chmod +x /Users/bsmith/myscripts/killTeams.sh
-ln -sf "/Users/bsmith/myscripts/killTeams.sh" "/usr/local/bin/killTeams"
+chmod +x killTeams.sh
+ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/usr/local/bin/killTeams"
 killTeams
 ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
 ```
