@@ -30,4 +30,4 @@ ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/Users/${US
 ```
 
 ## Uninstall
-1. Open the commandline and run ```rm -drf ~/myscripts/kill-ms-teams-on-mac/```
+1. Open the commandline and run ```cd ~/ && rm -drf ~/myscripts/kill-ms-teams-on-mac```
