@@ -34,8 +34,10 @@ ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/Users/${US
 2. Drag the desktop shortcut to the trash
 
 
-## Sample Output during installation and use
+## Sample Output during installation and use on macOS Monterey
 ```bash
+tfland200@RESML-1724650 ~ % uname -a
+Darwin macbookpro 21.6.0 Darwin Kernel Version 21.6.0: Sat Jun 18 17:07:25 PDT 2022; root:xnu-8020.140.41~1/RELEASE_X86_64 x86_64
 tfland@macbookpro % cd ~/ && rm -drf ~/myscripts/kill-ms-teams-on-mac
 tfland@macbookpro ~ % cd ~/ && rm -drf ~/myscripts/kill-ms-teams-on-mac
 tfland@macbookpro ~ % mkdir -p ~/myscripts && cd ~/myscripts
