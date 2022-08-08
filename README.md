@@ -3,12 +3,13 @@ Kills Microsoft Teams on Mac
 > "Because it hangs a system reboot or shutdown."
 
 Download the script, be sure to make it executable.
+###### Examples
 ``` bash
 chmod +x /Users/${USER}/myscripts/killTeams.sh
 ```
 
 #### Setup a Desktop Shortcut for quick access
-###### Examples
+###### Example
 ``` bash
 ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
 ```
