@@ -51,5 +51,7 @@ tfland@macbookpro kill-ms-teams-on-mac % chmod +x killTeams.sh
 tfland@macbookpro kill-ms-teams-on-mac % ln -sf "/Users/${USER}/myscripts/kill-ms-teams-on-mac/killTeams.sh" "/usr/local/bin/killTeams"
 tfland@macbookpro kill-ms-teams-on-mac % killTeams
 Microsoft Teams running on PID 94010
+tfland@macbookpro kill-ms-teams-on-mac % killTeams
+Microsoft Teams not running
 tfland@macbookpro kill-ms-teams-on-mac % ln -sf "/Users/${USER}/myscripts/killTeams.sh" "/Users/${USER}/Desktop/Kill MS Teams"
 ```
