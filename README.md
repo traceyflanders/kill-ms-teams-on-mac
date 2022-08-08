@@ -1,5 +1,5 @@
 # Kills Microsoft Teams on Mac
-_because it hangs a system reboot or shutdown._
+_"Because it hangs a system reboot or shutdown."_
 
 
 #### Setup a Desktop Shortcut for quick access
