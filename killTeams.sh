@@ -1,13 +1,13 @@
 #!/bin/sh
-###################################################################
+###############################################################################
 # Description   : Hard kills Microsoft Teams because it hangs MAC shutdown
 # Author        : Tracey Flanders
 # Email         : Tracey.Flanders@gmail.com
 # Script Name   : killTeams.sh
 # Args          : none, TBD
 # Created       : 220808
-# Version       : 1.0
-###################################################################
+# Version       : 1.1
+###############################################################################
 
 APPNAME="Microsoft Teams";
 APPPID=$(ps -ax | grep -i "/Applications/${APPNAME}.app" | grep -v 'grep' | head -n1 | awk '{print $1}');
